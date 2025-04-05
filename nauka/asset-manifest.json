@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nauka/static/css/main.4682f592.css",
+    "main.js": "/nauka/static/js/main.60054900.js",
+    "static/js/453.c9862af9.chunk.js": "/nauka/static/js/453.c9862af9.chunk.js",
+    "static/media/borsuk-logo.png": "/nauka/static/media/borsuk-logo.03341453aa3bdfa22be9.png",
+    "static/media/KSK_borsuk.png": "/nauka/static/media/KSK_borsuk.8bc6be5aa1d51c1e620b.png",
+    "index.html": "/nauka/index.html",
+    "main.4682f592.css.map": "/nauka/static/css/main.4682f592.css.map",
+    "main.60054900.js.map": "/nauka/static/js/main.60054900.js.map",
+    "453.c9862af9.chunk.js.map": "/nauka/static/js/453.c9862af9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4682f592.css",
+    "static/js/main.60054900.js"
+  ]
+}
