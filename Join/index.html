@@ -1,0 +1,88 @@
+<html lang="pl">
+<link rel="stylesheet" href="/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSK BORSUK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'forest': {
+                            500: '#334119',
+                            700: '#32440f',
+                        },
+                        'earth': {
+                            300: '#6b6b47',
+                            500: '#535335',
+                        }
+                    },
+                    height: {
+                        '128': '32rem',
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="bg-earth-300 text-gray-800">
+    <header class="bg-forest-500 text-white px-4 py-3 shadow-lg">
+        <div class="container mx-auto flex flex-col items-center">
+            <div style="display:inline;">
+                <img src="/images/borsuk-logo.png" alt="Logo Klubu Strzeleckiego" class="h-20 mr-5 items-center">
+            </div>
+            <div class="mb-4 text-center" style="display:inline;">
+                <h1 class="text-4xl font-bold tracking-wider"> KSK BORSUK</h1>
+            </div>
+            <nav class="mb-4">
+                <ul class="flex flex-wrap justify-center gap-4 md:gap-8">
+                    <li><a href="/" class="text-2xl hover:text-yellow-300 transition-colors duration-300">O nas</a></li>
+                    <li><a href="#" class="text-2xl hover:text-yellow-300 transition-colors duration-300">Dołącz</a></li>
+                    <li><a href="/szkolenia/" class="text-2xl hover:text-yellow-300 transition-colors duration-300">Szkolenia</a></li>
+                    <li><a href="/nauka/" class="text-2xl hover:text-yellow-300 transition-colors duration-300">Nauka</a></li>
+                    <li><a href="/calendar/" class="text-2xl hover:text-yellow-300 transition-colors duration-300">Kalendarz</a></li>
+                    <li><a href="/Imprezy/" class="text-2xl hover:text-yellow-300 transition-colors duration-300">Imprezy</a></li>
+                </ul>
+            </nav>
+            <div class="flex flex-col md:flex-row gap-2 md:gap-4">
+                <a href="mailto:ksk.borsuk@gmail.com" class="bg-forest-700 hover:bg-yellow-600 text-white px-4 py-2 rounded-md text-sm transition-colors duration-300">
+                    Napisz do nas
+                </a>
+                <a href="tel:+48506983203" class="bg-forest-700 hover:bg-yellow-600 text-white px-4 py-2 rounded-md text-sm transition-colors duration-300">
+                    Zadźwoń do nas
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <footer class="bg-forest-700 text-white py-8 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <img src="/images/borsuk-logo.png" alt="Logo Klubu Strzeleckiego" class="h-20 mr-5">
+                    <p>&copy; 2025 KSK Borsuk. Wszelkie prawa zastrzeżone.</p>
+                </div>
+                
+                <div class="flex flex-col md:flex-row gap-6 md:gap-12">
+                    <div>
+                        <h3 class="text-lg font-bold mb-2">Kontakt</h3>
+                        <p class="mb-1">Email: ksk.borsuk@gmail.com</p>
+                        <p>Tel: +48 506 983 203</p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-bold mb-2">Śledź nas</h3>
+                        <div class="flex gap-4">
+                            <a href="https://www.facebook.com/profile.php?id=61556571794422" class="text-white hover:text-yellow-300">Facebook</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
